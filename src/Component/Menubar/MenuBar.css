@@ -1,0 +1,31 @@
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(218, 214, 214);
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .join-button{
+    background-color: rgb(46, 46, 46);
+    border: 1px solid rgb(29, 26, 26);
+    border-radius: 20px;
+    
+  }
+  .join-text{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+  }
+  .join-text:hover{
+    color: gray;
+  }
+
+  .items:hover {
+    color: gray;
+  }
+  .menubar{
+    background-color: rgb(15, 15, 15);
+  }
