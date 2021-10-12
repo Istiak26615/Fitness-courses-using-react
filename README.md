@@ -1,6 +1,6 @@
- <!-- # Live Link
+ # Live Link
 https://sharp-babbage-2dde7b.netlify.app/
-https://fitness-course-5affa.web.app  -->
+
 
 ## Project Details
 
