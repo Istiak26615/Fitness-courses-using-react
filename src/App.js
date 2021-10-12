@@ -10,12 +10,15 @@ import Services from './Component/Services/Services';
 import About from './Component/About/About';
 import Trainer from './Component/Trainer/Trainer';
 import Login from './Component/Login/Login';
+import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Private/PrivateRoute';
 
 
 
 function App() {
   return (
     <div className="App">
+     <AuthProvider>
      <Router>
      <MenuBar></MenuBar>
        <Switch>
@@ -28,9 +31,9 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
-            <Route path="/services">
+            <PrivateRoute path="/services">
               <Services></Services>
-            </Route>
+            </PrivateRoute>
             <Route path="/trainer">
               <Trainer></Trainer>
             </Route>
@@ -43,6 +46,7 @@ function App() {
        </Switch>
        <Footer></Footer>
      </Router>
+     </AuthProvider>
     </div>
   );
 }

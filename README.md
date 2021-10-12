@@ -3,11 +3,11 @@ https://sharp-babbage-2dde7b.netlify.app/
 
 ## Project Details
 
-This project is build to share different fitness program with people and train them based on those program online to reach their fitness goal.
+This project is build to share different fitness program with people and train them based on those program online to reach their fitness goal. I have used google login process only. And also used auth redirect for service pages. One cannot visit services module without login.
 
 ### Project technology
 
-React, bootstrap, vanilla css 
+React,  Firebase, bootstrap, vanilla css 
 
 ### Fakedata
 
