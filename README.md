@@ -7,11 +7,8 @@ This project is build to share different fitness program with people and train t
 
 ### Project technology
 
-<<<<<<< HEAD
-React,  Firebase, bootstrap, vanilla css 
-=======
 React, react router, bootstrap, vanilla css 
->>>>>>> 51c7c0ed29471f2ebdca05519fb5caa3bd6861e0
+
 
 ### Fakedata
 
