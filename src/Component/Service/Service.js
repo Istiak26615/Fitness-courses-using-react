@@ -9,7 +9,7 @@ const Service = (props) => {
     const{name, trainer, description,image,price}=props.service
     return (
         
-        <div className="col-md-3 service justify-content-center">
+        <div data-aos="flip-left" className="col-md-3 service justify-content-center">
               <Card style={{ width: '18rem'}} className="fullcard" >
                 <Card.Img variant="top" src={image} />
                 <div class="middle">

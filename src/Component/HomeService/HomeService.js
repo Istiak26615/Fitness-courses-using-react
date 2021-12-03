@@ -12,12 +12,14 @@ const HomeService = () => {
             <div className="services-container home-container ">
             <div>
         <h1 className="ourservice mt-3">Our Services</h1>
-      </div>    
-        <div className="row justify-content-center">
+      </div> 
+      <div>  
+        <div data-aos="fade-down" className="row justify-content-center">
             {
                 services.map(service=><Service key={service.id} service={service}></Service>)
             }
         </div>
+        </div> 
         </div>
         </div>
     );
